@@ -142,3 +142,39 @@ section .title {
     color: pink;
     background-color: #667eea;
 }
+.bg__gradient__box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.linear {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #ffff;
+    background: linear-gradient(to right, #c0b931, #0813e2 , rgb(197, 46, 46));
+}
+
+.radial {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #ffff;
+    background: radial-gradient(circle, #c0b931, #0813e2 , rgb(197, 46, 46));
+}
+.conic{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #ffff;
+    background: conic-gradient(from 90deg, red, orange, yellow, green, blue, purple, pink);
+}
