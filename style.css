@@ -178,3 +178,21 @@ section .title {
     color: #ffff;
     background: conic-gradient(from 90deg, red, orange, yellow, green, blue, purple, pink);
 }
+.fixed {
+    height: 150px;
+    width: 100%;
+    background-image: url("https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    color: #ffff;
+    font-weight: bold;
+}
+.text {
+    color: #667eea;
+}
