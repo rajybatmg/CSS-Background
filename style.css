@@ -52,6 +52,7 @@ main h1 {
 }
 section .title {
     margin-top: 40px;
+    margin-bottom: 30px;
 }
 .cover {
     height: 150px;
@@ -93,4 +94,51 @@ section .title {
     align-items: center;
     font-weight: bold;
     color: pink;
+}
+.bg__positioning__box  {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.left {
+    height: 150px;
+    width: 200px;
+    background-image: url("https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    background-position: top left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: pink;
+    background-color: #667eea;
+}
+.center{
+    height: 150px;
+    width: 200px;
+    background-image: url("https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: pink;
+    background-color: #667eea;
+}
+.right{
+    height: 150px;
+    width: 200px;
+    background-image: url("https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    background-position: bottom right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: pink;
+    background-color: #667eea;
 }
